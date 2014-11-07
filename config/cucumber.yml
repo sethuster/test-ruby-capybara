@@ -1,0 +1,4 @@
+#This makes it so you can run a output formatter by default
+#you can also set up other profile options for CLI cucumber -p <profilename>
+---
+default: --format pretty --format html --out features_report.html
